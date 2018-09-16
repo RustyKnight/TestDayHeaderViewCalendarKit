@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		702086D2214DCD1400B61524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086D1214DCD1400B61524 /* AppDelegate.swift */; };
+		702086D4214DCD1400B61524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086D3214DCD1400B61524 /* ViewController.swift */; };
+		702086D7214DCD1400B61524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702086D5214DCD1400B61524 /* Main.storyboard */; };
+		702086D9214DCD1700B61524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702086D8214DCD1700B61524 /* Assets.xcassets */; };
+		702086DC214DCD1700B61524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702086DA214DCD1700B61524 /* LaunchScreen.storyboard */; };
+		702086E7214DCD1700B61524 /* TestCalendarKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086E6214DCD1700B61524 /* TestCalendarKitUITests.swift */; };
+		7020872E214DD16C00B61524 /* NeonAlignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086F5214DD16800B61524 /* NeonAlignable.swift */; };
+		7020872F214DD16C00B61524 /* NeonAnchorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086F6214DD16900B61524 /* NeonAnchorable.swift */; };
+		70208730214DD16C00B61524 /* CalendarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086F7214DD16900B61524 /* CalendarStyle.swift */; };
+		70208731214DD16C00B61524 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086F8214DD16900B61524 /* DayViewController.swift */; };
+		70208732214DD16C00B61524 /* NeonGroupable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086F9214DD16900B61524 /* NeonGroupable.swift */; };
+		70208733214DD16C00B61524 /* Neon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086FA214DD16900B61524 /* Neon.swift */; };
+		70208734214DD16C00B61524 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086FB214DD16900B61524 /* DayView.swift */; };
+		70208735214DD16C00B61524 /* AllDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086FD214DD16900B61524 /* AllDayView.swift */; };
+		70208736214DD16C00B61524 /* CurrentTimeIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086FE214DD16900B61524 /* CurrentTimeIndicator.swift */; };
+		70208737214DD16C00B61524 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702086FF214DD16900B61524 /* Event.swift */; };
+		70208738214DD16C00B61524 /* EventDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208700214DD16900B61524 /* EventDescriptor.swift */; };
+		70208739214DD16C00B61524 /* EventLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208701214DD16900B61524 /* EventLayoutAttributes.swift */; };
+		7020873A214DD16C00B61524 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208702214DD16900B61524 /* EventView.swift */; };
+		7020873B214DD16C00B61524 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208703214DD16900B61524 /* Generator.swift */; };
+		7020873C214DD16C00B61524 /* ReusePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208704214DD16900B61524 /* ReusePool.swift */; };
+		7020873D214DD16C00B61524 /* ScrollSyncronizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208705214DD16900B61524 /* ScrollSyncronizer.swift */; };
+		7020873E214DD16C00B61524 /* TimelineContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208706214DD16900B61524 /* TimelineContainer.swift */; };
+		7020873F214DD16C00B61524 /* TimelinePagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208707214DD16900B61524 /* TimelinePagerView.swift */; };
+		70208740214DD16C00B61524 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208708214DD16900B61524 /* TimelineView.swift */; };
+		70208741214DD16C00B61524 /* EventDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208709214DD16A00B61524 /* EventDataSource.swift */; };
+		70208742214DD16C00B61524 /* NeonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020870A214DD16A00B61524 /* NeonExtensions.swift */; };
+		70208743214DD16C00B61524 /* NeonFrameable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020870B214DD16A00B61524 /* NeonFrameable.swift */; };
+		70208744214DD16C00B61524 /* DayViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020870C214DD16A00B61524 /* DayViewState.swift */; };
+		70208745214DD16C00B61524 /* PagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020870D214DD16A00B61524 /* PagingScrollView.swift */; };
+		70208746214DD16C00B61524 /* DayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020870F214DD16A00B61524 /* DayHeaderView.swift */; };
+		70208747214DD16C00B61524 /* DateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208711214DD16A00B61524 /* DateLabel.swift */; };
+		70208748214DD16C00B61524 /* DayDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208712214DD16A00B61524 /* DayDateCell.swift */; };
+		70208749214DD16C00B61524 /* DaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208713214DD16A00B61524 /* DaySelector.swift */; };
+		7020874A214DD16C00B61524 /* DaySymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208714214DD16A00B61524 /* DaySymbolsView.swift */; };
+		7020874B214DD16C00B61524 /* SwipeLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208715214DD16A00B61524 /* SwipeLabelView.swift */; };
+		7020874C214DD16C00B61524 /* Array+Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208717214DD16A00B61524 /* Array+Shift.swift */; };
+		7020874D214DD16C00B61524 /* Date+DateOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208718214DD16A00B61524 /* Date+DateOnly.swift */; };
+		7020874E214DD16C00B61524 /* EventDescriptor+DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208719214DD16A00B61524 /* EventDescriptor+DateTools.swift */; };
+		7020874F214DD16C00B61524 /* Locale+24Hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020871A214DD16A00B61524 /* Locale+24Hour.swift */; };
+		70208750214DD16C00B61524 /* TimeChunk+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020871B214DD16A00B61524 /* TimeChunk+DateComponents.swift */; };
+		70208751214DD16C00B61524 /* View+StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020871C214DD16A00B61524 /* View+StackView.swift */; };
+		70208752214DD16C00B61524 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020871E214DD16B00B61524 /* Constants.swift */; };
+		70208753214DD16C00B61524 /* Date+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020871F214DD16B00B61524 /* Date+Bundle.swift */; };
+		70208754214DD16C00B61524 /* Date+Comparators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208720214DD16B00B61524 /* Date+Comparators.swift */; };
+		70208755214DD16C00B61524 /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208721214DD16B00B61524 /* Date+Components.swift */; };
+		70208756214DD16C00B61524 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208722214DD16B00B61524 /* Date+Format.swift */; };
+		70208757214DD16C00B61524 /* Date+Inits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208723214DD16B00B61524 /* Date+Inits.swift */; };
+		70208758214DD16C00B61524 /* Date+Manipulations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208724214DD16B00B61524 /* Date+Manipulations.swift */; };
+		70208759214DD16C00B61524 /* Date+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208725214DD16B00B61524 /* Date+TimeAgo.swift */; };
+		7020875A214DD16C00B61524 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 70208726214DD16B00B61524 /* DateTools.bundle */; };
+		7020875B214DD16C00B61524 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208727214DD16B00B61524 /* Enums.swift */; };
+		7020875C214DD16C00B61524 /* Integer+DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208728214DD16B00B61524 /* Integer+DateTools.swift */; };
+		7020875D214DD16C00B61524 /* TimeChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70208729214DD16B00B61524 /* TimeChunk.swift */; };
+		7020875E214DD16C00B61524 /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020872A214DD16B00B61524 /* TimePeriod.swift */; };
+		7020875F214DD16C00B61524 /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020872B214DD16B00B61524 /* TimePeriodChain.swift */; };
+		70208760214DD16C00B61524 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020872C214DD16B00B61524 /* TimePeriodCollection.swift */; };
+		70208761214DD16C00B61524 /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020872D214DD16B00B61524 /* TimePeriodGroup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		702086E3214DCD1700B61524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 702086C6214DCD1400B61524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 702086CD214DCD1400B61524;
+			remoteInfo = TestCalendarKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		702086F4214DCDB100B61524 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		702086CE214DCD1400B61524 /* TestCalendarKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCalendarKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		702086D1214DCD1400B61524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		702086D3214DCD1400B61524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		702086D6214DCD1400B61524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		702086D8214DCD1700B61524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		702086DB214DCD1700B61524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		702086DD214DCD1700B61524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702086E2214DCD1700B61524 /* TestCalendarKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCalendarKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		702086E6214DCD1700B61524 /* TestCalendarKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCalendarKitUITests.swift; sourceTree = "<group>"; };
+		702086E8214DCD1700B61524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702086F5214DD16800B61524 /* NeonAlignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonAlignable.swift; sourceTree = "<group>"; };
+		702086F6214DD16900B61524 /* NeonAnchorable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonAnchorable.swift; sourceTree = "<group>"; };
+		702086F7214DD16900B61524 /* CalendarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarStyle.swift; sourceTree = "<group>"; };
+		702086F8214DD16900B61524 /* DayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		702086F9214DD16900B61524 /* NeonGroupable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonGroupable.swift; sourceTree = "<group>"; };
+		702086FA214DD16900B61524 /* Neon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neon.swift; sourceTree = "<group>"; };
+		702086FB214DD16900B61524 /* DayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		702086FD214DD16900B61524 /* AllDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllDayView.swift; sourceTree = "<group>"; };
+		702086FE214DD16900B61524 /* CurrentTimeIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTimeIndicator.swift; sourceTree = "<group>"; };
+		702086FF214DD16900B61524 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		70208700214DD16900B61524 /* EventDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDescriptor.swift; sourceTree = "<group>"; };
+		70208701214DD16900B61524 /* EventLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventLayoutAttributes.swift; sourceTree = "<group>"; };
+		70208702214DD16900B61524 /* EventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		70208703214DD16900B61524 /* Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		70208704214DD16900B61524 /* ReusePool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusePool.swift; sourceTree = "<group>"; };
+		70208705214DD16900B61524 /* ScrollSyncronizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollSyncronizer.swift; sourceTree = "<group>"; };
+		70208706214DD16900B61524 /* TimelineContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineContainer.swift; sourceTree = "<group>"; };
+		70208707214DD16900B61524 /* TimelinePagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelinePagerView.swift; sourceTree = "<group>"; };
+		70208708214DD16900B61524 /* TimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		70208709214DD16A00B61524 /* EventDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDataSource.swift; sourceTree = "<group>"; };
+		7020870A214DD16A00B61524 /* NeonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonExtensions.swift; sourceTree = "<group>"; };
+		7020870B214DD16A00B61524 /* NeonFrameable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonFrameable.swift; sourceTree = "<group>"; };
+		7020870C214DD16A00B61524 /* DayViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewState.swift; sourceTree = "<group>"; };
+		7020870D214DD16A00B61524 /* PagingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingScrollView.swift; sourceTree = "<group>"; };
+		7020870F214DD16A00B61524 /* DayHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayHeaderView.swift; sourceTree = "<group>"; };
+		70208711214DD16A00B61524 /* DateLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateLabel.swift; sourceTree = "<group>"; };
+		70208712214DD16A00B61524 /* DayDateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayDateCell.swift; sourceTree = "<group>"; };
+		70208713214DD16A00B61524 /* DaySelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaySelector.swift; sourceTree = "<group>"; };
+		70208714214DD16A00B61524 /* DaySymbolsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaySymbolsView.swift; sourceTree = "<group>"; };
+		70208715214DD16A00B61524 /* SwipeLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeLabelView.swift; sourceTree = "<group>"; };
+		70208717214DD16A00B61524 /* Array+Shift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shift.swift"; sourceTree = "<group>"; };
+		70208718214DD16A00B61524 /* Date+DateOnly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+DateOnly.swift"; sourceTree = "<group>"; };
+		70208719214DD16A00B61524 /* EventDescriptor+DateTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EventDescriptor+DateTools.swift"; sourceTree = "<group>"; };
+		7020871A214DD16A00B61524 /* Locale+24Hour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+24Hour.swift"; sourceTree = "<group>"; };
+		7020871B214DD16A00B61524 /* TimeChunk+DateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeChunk+DateComponents.swift"; sourceTree = "<group>"; };
+		7020871C214DD16A00B61524 /* View+StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+StackView.swift"; sourceTree = "<group>"; };
+		7020871E214DD16B00B61524 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7020871F214DD16B00B61524 /* Date+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Bundle.swift"; sourceTree = "<group>"; };
+		70208720214DD16B00B61524 /* Date+Comparators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Comparators.swift"; sourceTree = "<group>"; };
+		70208721214DD16B00B61524 /* Date+Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Components.swift"; sourceTree = "<group>"; };
+		70208722214DD16B00B61524 /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		70208723214DD16B00B61524 /* Date+Inits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Inits.swift"; sourceTree = "<group>"; };
+		70208724214DD16B00B61524 /* Date+Manipulations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Manipulations.swift"; sourceTree = "<group>"; };
+		70208725214DD16B00B61524 /* Date+TimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+TimeAgo.swift"; sourceTree = "<group>"; };
+		70208726214DD16B00B61524 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DateTools.bundle; sourceTree = "<group>"; };
+		70208727214DD16B00B61524 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		70208728214DD16B00B61524 /* Integer+DateTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+DateTools.swift"; sourceTree = "<group>"; };
+		70208729214DD16B00B61524 /* TimeChunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeChunk.swift; sourceTree = "<group>"; };
+		7020872A214DD16B00B61524 /* TimePeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriod.swift; sourceTree = "<group>"; };
+		7020872B214DD16B00B61524 /* TimePeriodChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodChain.swift; sourceTree = "<group>"; };
+		7020872C214DD16B00B61524 /* TimePeriodCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodCollection.swift; sourceTree = "<group>"; };
+		7020872D214DD16B00B61524 /* TimePeriodGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodGroup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		702086CB214DCD1400B61524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702086DF214DCD1700B61524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		702086C5214DCD1400B61524 = {
+			isa = PBXGroup;
+			children = (
+				702086D0214DCD1400B61524 /* TestCalendarKit */,
+				702086E5214DCD1700B61524 /* TestCalendarKitUITests */,
+				702086CF214DCD1400B61524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		702086CF214DCD1400B61524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				702086CE214DCD1400B61524 /* TestCalendarKit.app */,
+				702086E2214DCD1700B61524 /* TestCalendarKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		702086D0214DCD1400B61524 /* TestCalendarKit */ = {
+			isa = PBXGroup;
+			children = (
+				702086F7214DD16900B61524 /* CalendarStyle.swift */,
+				7020871D214DD16B00B61524 /* DateTools */,
+				702086FB214DD16900B61524 /* DayView.swift */,
+				702086F8214DD16900B61524 /* DayViewController.swift */,
+				7020870C214DD16A00B61524 /* DayViewState.swift */,
+				70208709214DD16A00B61524 /* EventDataSource.swift */,
+				70208716214DD16A00B61524 /* Extensions */,
+				7020870E214DD16A00B61524 /* Header */,
+				702086FA214DD16900B61524 /* Neon.swift */,
+				702086F5214DD16800B61524 /* NeonAlignable.swift */,
+				702086F6214DD16900B61524 /* NeonAnchorable.swift */,
+				7020870A214DD16A00B61524 /* NeonExtensions.swift */,
+				7020870B214DD16A00B61524 /* NeonFrameable.swift */,
+				702086F9214DD16900B61524 /* NeonGroupable.swift */,
+				7020870D214DD16A00B61524 /* PagingScrollView.swift */,
+				702086FC214DD16900B61524 /* Timeline */,
+				702086D1214DCD1400B61524 /* AppDelegate.swift */,
+				702086D3214DCD1400B61524 /* ViewController.swift */,
+				702086D5214DCD1400B61524 /* Main.storyboard */,
+				702086D8214DCD1700B61524 /* Assets.xcassets */,
+				702086DA214DCD1700B61524 /* LaunchScreen.storyboard */,
+				702086DD214DCD1700B61524 /* Info.plist */,
+			);
+			path = TestCalendarKit;
+			sourceTree = "<group>";
+		};
+		702086E5214DCD1700B61524 /* TestCalendarKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				702086E6214DCD1700B61524 /* TestCalendarKitUITests.swift */,
+				702086E8214DCD1700B61524 /* Info.plist */,
+			);
+			path = TestCalendarKitUITests;
+			sourceTree = "<group>";
+		};
+		702086FC214DD16900B61524 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				702086FD214DD16900B61524 /* AllDayView.swift */,
+				702086FE214DD16900B61524 /* CurrentTimeIndicator.swift */,
+				702086FF214DD16900B61524 /* Event.swift */,
+				70208700214DD16900B61524 /* EventDescriptor.swift */,
+				70208701214DD16900B61524 /* EventLayoutAttributes.swift */,
+				70208702214DD16900B61524 /* EventView.swift */,
+				70208703214DD16900B61524 /* Generator.swift */,
+				70208704214DD16900B61524 /* ReusePool.swift */,
+				70208705214DD16900B61524 /* ScrollSyncronizer.swift */,
+				70208706214DD16900B61524 /* TimelineContainer.swift */,
+				70208707214DD16900B61524 /* TimelinePagerView.swift */,
+				70208708214DD16900B61524 /* TimelineView.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		7020870E214DD16A00B61524 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				7020870F214DD16A00B61524 /* DayHeaderView.swift */,
+				70208710214DD16A00B61524 /* DaySelector */,
+				70208714214DD16A00B61524 /* DaySymbolsView.swift */,
+				70208715214DD16A00B61524 /* SwipeLabelView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		70208710214DD16A00B61524 /* DaySelector */ = {
+			isa = PBXGroup;
+			children = (
+				70208711214DD16A00B61524 /* DateLabel.swift */,
+				70208712214DD16A00B61524 /* DayDateCell.swift */,
+				70208713214DD16A00B61524 /* DaySelector.swift */,
+			);
+			path = DaySelector;
+			sourceTree = "<group>";
+		};
+		70208716214DD16A00B61524 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				70208717214DD16A00B61524 /* Array+Shift.swift */,
+				70208718214DD16A00B61524 /* Date+DateOnly.swift */,
+				70208719214DD16A00B61524 /* EventDescriptor+DateTools.swift */,
+				7020871A214DD16A00B61524 /* Locale+24Hour.swift */,
+				7020871B214DD16A00B61524 /* TimeChunk+DateComponents.swift */,
+				7020871C214DD16A00B61524 /* View+StackView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7020871D214DD16B00B61524 /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				7020871E214DD16B00B61524 /* Constants.swift */,
+				7020871F214DD16B00B61524 /* Date+Bundle.swift */,
+				70208720214DD16B00B61524 /* Date+Comparators.swift */,
+				70208721214DD16B00B61524 /* Date+Components.swift */,
+				70208722214DD16B00B61524 /* Date+Format.swift */,
+				70208723214DD16B00B61524 /* Date+Inits.swift */,
+				70208724214DD16B00B61524 /* Date+Manipulations.swift */,
+				70208725214DD16B00B61524 /* Date+TimeAgo.swift */,
+				70208726214DD16B00B61524 /* DateTools.bundle */,
+				70208727214DD16B00B61524 /* Enums.swift */,
+				70208728214DD16B00B61524 /* Integer+DateTools.swift */,
+				70208729214DD16B00B61524 /* TimeChunk.swift */,
+				7020872A214DD16B00B61524 /* TimePeriod.swift */,
+				7020872B214DD16B00B61524 /* TimePeriodChain.swift */,
+				7020872C214DD16B00B61524 /* TimePeriodCollection.swift */,
+				7020872D214DD16B00B61524 /* TimePeriodGroup.swift */,
+			);
+			path = DateTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		702086CD214DCD1400B61524 /* TestCalendarKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702086EB214DCD1700B61524 /* Build configuration list for PBXNativeTarget "TestCalendarKit" */;
+			buildPhases = (
+				702086CA214DCD1400B61524 /* Sources */,
+				702086CB214DCD1400B61524 /* Frameworks */,
+				702086CC214DCD1400B61524 /* Resources */,
+				702086F4214DCDB100B61524 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCalendarKit;
+			productName = TestCalendarKit;
+			productReference = 702086CE214DCD1400B61524 /* TestCalendarKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		702086E1214DCD1700B61524 /* TestCalendarKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702086EE214DCD1700B61524 /* Build configuration list for PBXNativeTarget "TestCalendarKitUITests" */;
+			buildPhases = (
+				702086DE214DCD1700B61524 /* Sources */,
+				702086DF214DCD1700B61524 /* Frameworks */,
+				702086E0214DCD1700B61524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				702086E4214DCD1700B61524 /* PBXTargetDependency */,
+			);
+			name = TestCalendarKitUITests;
+			productName = TestCalendarKitUITests;
+			productReference = 702086E2214DCD1700B61524 /* TestCalendarKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		702086C6214DCD1400B61524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = KaiZen;
+				TargetAttributes = {
+					702086CD214DCD1400B61524 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					702086E1214DCD1700B61524 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 702086CD214DCD1400B61524;
+					};
+				};
+			};
+			buildConfigurationList = 702086C9214DCD1400B61524 /* Build configuration list for PBXProject "TestCalendarKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 702086C5214DCD1400B61524;
+			productRefGroup = 702086CF214DCD1400B61524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				702086CD214DCD1400B61524 /* TestCalendarKit */,
+				702086E1214DCD1700B61524 /* TestCalendarKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		702086CC214DCD1400B61524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702086DC214DCD1700B61524 /* LaunchScreen.storyboard in Resources */,
+				702086D9214DCD1700B61524 /* Assets.xcassets in Resources */,
+				702086D7214DCD1400B61524 /* Main.storyboard in Resources */,
+				7020875A214DD16C00B61524 /* DateTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702086E0214DCD1700B61524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		702086CA214DCD1400B61524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70208747214DD16C00B61524 /* DateLabel.swift in Sources */,
+				70208732214DD16C00B61524 /* NeonGroupable.swift in Sources */,
+				70208740214DD16C00B61524 /* TimelineView.swift in Sources */,
+				70208750214DD16C00B61524 /* TimeChunk+DateComponents.swift in Sources */,
+				70208749214DD16C00B61524 /* DaySelector.swift in Sources */,
+				7020873B214DD16C00B61524 /* Generator.swift in Sources */,
+				702086D4214DCD1400B61524 /* ViewController.swift in Sources */,
+				70208736214DD16C00B61524 /* CurrentTimeIndicator.swift in Sources */,
+				7020874D214DD16C00B61524 /* Date+DateOnly.swift in Sources */,
+				7020872E214DD16C00B61524 /* NeonAlignable.swift in Sources */,
+				70208759214DD16C00B61524 /* Date+TimeAgo.swift in Sources */,
+				70208737214DD16C00B61524 /* Event.swift in Sources */,
+				70208758214DD16C00B61524 /* Date+Manipulations.swift in Sources */,
+				70208735214DD16C00B61524 /* AllDayView.swift in Sources */,
+				70208761214DD16C00B61524 /* TimePeriodGroup.swift in Sources */,
+				70208746214DD16C00B61524 /* DayHeaderView.swift in Sources */,
+				70208748214DD16C00B61524 /* DayDateCell.swift in Sources */,
+				7020874F214DD16C00B61524 /* Locale+24Hour.swift in Sources */,
+				7020873F214DD16C00B61524 /* TimelinePagerView.swift in Sources */,
+				7020874C214DD16C00B61524 /* Array+Shift.swift in Sources */,
+				70208755214DD16C00B61524 /* Date+Components.swift in Sources */,
+				7020875B214DD16C00B61524 /* Enums.swift in Sources */,
+				7020875E214DD16C00B61524 /* TimePeriod.swift in Sources */,
+				70208730214DD16C00B61524 /* CalendarStyle.swift in Sources */,
+				7020874A214DD16C00B61524 /* DaySymbolsView.swift in Sources */,
+				70208756214DD16C00B61524 /* Date+Format.swift in Sources */,
+				7020873C214DD16C00B61524 /* ReusePool.swift in Sources */,
+				70208752214DD16C00B61524 /* Constants.swift in Sources */,
+				7020874E214DD16C00B61524 /* EventDescriptor+DateTools.swift in Sources */,
+				70208739214DD16C00B61524 /* EventLayoutAttributes.swift in Sources */,
+				70208734214DD16C00B61524 /* DayView.swift in Sources */,
+				7020875F214DD16C00B61524 /* TimePeriodChain.swift in Sources */,
+				70208760214DD16C00B61524 /* TimePeriodCollection.swift in Sources */,
+				7020874B214DD16C00B61524 /* SwipeLabelView.swift in Sources */,
+				70208743214DD16C00B61524 /* NeonFrameable.swift in Sources */,
+				70208742214DD16C00B61524 /* NeonExtensions.swift in Sources */,
+				70208754214DD16C00B61524 /* Date+Comparators.swift in Sources */,
+				7020873A214DD16C00B61524 /* EventView.swift in Sources */,
+				70208757214DD16C00B61524 /* Date+Inits.swift in Sources */,
+				70208738214DD16C00B61524 /* EventDescriptor.swift in Sources */,
+				7020872F214DD16C00B61524 /* NeonAnchorable.swift in Sources */,
+				70208733214DD16C00B61524 /* Neon.swift in Sources */,
+				70208751214DD16C00B61524 /* View+StackView.swift in Sources */,
+				7020873D214DD16C00B61524 /* ScrollSyncronizer.swift in Sources */,
+				702086D2214DCD1400B61524 /* AppDelegate.swift in Sources */,
+				70208741214DD16C00B61524 /* EventDataSource.swift in Sources */,
+				7020875C214DD16C00B61524 /* Integer+DateTools.swift in Sources */,
+				7020873E214DD16C00B61524 /* TimelineContainer.swift in Sources */,
+				70208745214DD16C00B61524 /* PagingScrollView.swift in Sources */,
+				70208744214DD16C00B61524 /* DayViewState.swift in Sources */,
+				7020875D214DD16C00B61524 /* TimeChunk.swift in Sources */,
+				70208731214DD16C00B61524 /* DayViewController.swift in Sources */,
+				70208753214DD16C00B61524 /* Date+Bundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702086DE214DCD1700B61524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702086E7214DCD1700B61524 /* TestCalendarKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		702086E4214DCD1700B61524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 702086CD214DCD1400B61524 /* TestCalendarKit */;
+			targetProxy = 702086E3214DCD1700B61524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		702086D5214DCD1400B61524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702086D6214DCD1400B61524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		702086DA214DCD1700B61524 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702086DB214DCD1700B61524 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		702086E9214DCD1700B61524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		702086EA214DCD1700B61524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		702086EC214DCD1700B61524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = TestCalendarKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.kaizen.TestCalendarKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		702086ED214DCD1700B61524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = TestCalendarKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.kaizen.TestCalendarKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		702086EF214DCD1700B61524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				INFOPLIST_FILE = TestCalendarKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.kaizen.TestCalendarKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestCalendarKit;
+			};
+			name = Debug;
+		};
+		702086F0214DCD1700B61524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				INFOPLIST_FILE = TestCalendarKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.kaizen.TestCalendarKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestCalendarKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		702086C9214DCD1400B61524 /* Build configuration list for PBXProject "TestCalendarKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702086E9214DCD1700B61524 /* Debug */,
+				702086EA214DCD1700B61524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702086EB214DCD1700B61524 /* Build configuration list for PBXNativeTarget "TestCalendarKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702086EC214DCD1700B61524 /* Debug */,
+				702086ED214DCD1700B61524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702086EE214DCD1700B61524 /* Build configuration list for PBXNativeTarget "TestCalendarKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702086EF214DCD1700B61524 /* Debug */,
+				702086F0214DCD1700B61524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 702086C6214DCD1400B61524 /* Project object */;
+}
